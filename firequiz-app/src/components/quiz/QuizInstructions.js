@@ -4,8 +4,10 @@ import { Helmet } from 'react-helmet';
 
 const QuizInstructions = () => (
     <>
-        <helmet><title>Quiz Instruction</title></helmet>
-        <div className="instructions">
+        <Helmet>
+        <title>Quiz-instruction</title>
+        </Helmet>
+        <div className="instructions container">
             <h1>How to play the game</h1>
             <p>Ensure you read carefully to finish.</p>
             <ul className="browser-default" id="main-list">
@@ -37,7 +39,7 @@ const QuizInstructions = () => (
             </ul>
             <div>
                 <span className="left"><Link to="/">No take me back</Link></span>
-                <span className="right"><Link to="/play">Okay lets do this</Link></span>
+                <span className="right"><Link to="/play/quiz">Okay lets do this</Link></span>
             </div>
         </div>
     </>
