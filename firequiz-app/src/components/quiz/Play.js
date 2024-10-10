@@ -1,5 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import M from 'materialize-css';
+
 import questions from '../../questions.json';
 import isEmpty from '../../utils/is-empty';
 
@@ -42,9 +44,94 @@ class Play extends React.Component {
                 currentQuestion,
                 nextQuestion,
                 previousQuestion,
+                numberOfQuestions: questions.length,
                 answer
-            })
+            });
         }
+    };
+
+    handleOptionClick = (e) => {
+        if (e.target.innerHTML.toLowerCase() === this.state.answer.toLowerCase()) {
+            this.correctAnswer();
+        } else {
+            this.wrongAnswer();
+        }
+    }
+
+    handleNextButtonClick = () => {
+        if (this.state.nextQuestion !== undefined) {
+            this.setState(prevState => ({
+                currentQuestionIndex: prevState.currentQuestionIndex + 1
+            }), () => {
+                this.displayQuestions(this.state.state, this.state.currentQuestion, this.state.nextQuestion, this.state.previousQuestion);
+            });
+        }
+    };
+    
+    handlePreviousButtonClick = () => {
+        if (this.state.previousQuestion !== undefined) {
+            this.setState(prevState => ({
+                currentQuestionIndex: prevState.currentQuestionIndex - 1
+            }), () => {
+                this.displayQuestions(this.state.state, this.state.currentQuestion, this.state.nextQuestion, this.state.previousQuestion);
+            });
+        }
+    };
+
+    handleQuitButtonClick = () => {
+        if (window.confirm('Are you sure you want to quit?')) {
+            this.props.history.push('/');
+        }
+    }
+    
+    handleButtonClick = (e) => {
+        switch (e.target.id) {
+            case 'next-button':
+                this.handleNextButtonClick();
+                break;
+
+            case 'previous-button':
+                this.handlePreviousButtonClick();
+                break;
+            case 'quit-button':
+                this.handleQuitButtonClick();
+                break;
+
+            default:
+                break;
+        }
+    };
+
+    correctAnswer = () => {
+        M.toast({
+            html: 'Correct Answer!',
+            classes: 'toast-valid',
+            displayLength: 1500
+        });
+        this.setState(prevState => ({
+            score: prevState.score + 1,
+            correctAnswers: prevState.correctAnswers + 1,
+            currentQuestionIndex: prevState.currentQuestionIndex + 1,
+            numberOfAnsweredQuestion: prevState.numberOfAnsweredQuestion + 1,
+        }), () => {
+            this.displayQuestions(this.state.questions, this.state.currentQuestion, this.state.nextQuestion, this.state.previousQuestion);
+        });
+    };
+    
+    wrongAnswer = () => {
+        navigator.vibrate(1000);
+        M.toast({
+            html: 'Wrong Answer!',
+            classes: 'toast-invalid',
+            displayLength: 1500
+        });
+        this.setState(prevState => ({
+            wrongAnswers: prevState.wrongAnswers + 1,
+            currentQuestionIndex: prevState.currentQuestionIndex + 1,
+            numberOfAnsweredQuestion: prevState.numberOfAnsweredQuestion + 1,
+        }), () => {
+            this.displayQuestions(this.state.questions, this.state.currentQuestion, this.state.nextQuestion, this.state.previousQuestion); 
+        });
     }
 
     increaseCount = () => {
@@ -53,7 +140,7 @@ class Play extends React.Component {
         });
     };
     render () {
-        const { currentQuestion } = this.state;
+        const { currentQuestion, currentQuestionIndex, numberOfQuestions} = this.state;
         return (
             <>
                 <Helmet>
@@ -67,23 +154,23 @@ class Play extends React.Component {
                     </div>
                     <div>
                         <p>
-                            <span className="left">1 of 15</span>
+                            <span className="left">{currentQuestionIndex + 1} of {numberOfQuestions}</span>
                             <span className="right">2:15<span className="mdi mdi-clock-outline mdi-24px"></span></span>
                         </p>
                     </div>
                     <h4>{currentQuestion.question}</h4>
                     <div className="options-container">
-                        <p className="option">{currentQuestion.optionA}</p>
-                        <p className="option">{currentQuestion.optionB}</p>
+                        <p onClick={this.handleOptionClick} className="option">{currentQuestion.optionA}</p>
+                        <p onClick={this.handleOptionClick} className="option">{currentQuestion.optionB}</p>
                     </div>
                     <div className="options-container">
-                        <p className="option">{currentQuestion.optionC}</p>
-                        <p className="option">{currentQuestion.optionD}</p>
+                        <p onClick={this.handleOptionClick} className="option">{currentQuestion.optionC}</p>
+                        <p onClick={this.handleOptionClick} className="option">{currentQuestion.optionD}</p>
                     </div>
                     <div className="button-container">
-                        <button>Previous</button>
-                        <button>Next</button>
-                        <button>Quit</button>
+                        <button id="previous-button" onClick={this.handleButtonClick}>Previous</button>
+                        <button id="next-button" onClick={this.handleButtonClick}>Next</button>
+                        <button id="quit-button" onClick={this.handleButtonClick}>Quit</button>
                     </div>
                 </div>
             </>
