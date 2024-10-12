@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import M from 'materialize-css';
+// import { useNavigate } from 'react-router-dom';
 
 import questions from '../../questions.json';
 import isEmpty from '../../utils/is-empty';
@@ -23,6 +24,7 @@ class Play extends React.Component {
             hints: 5,
             fiftyFifty: 2,
             usedFiftyFifty: false,
+            previousRandomNumbers: [],
             time: {}
         };
     }
@@ -45,7 +47,10 @@ class Play extends React.Component {
                 nextQuestion,
                 previousQuestion,
                 numberOfQuestions: questions.length,
-                answer
+                answer,
+                previousRandomNumbers: []
+            }, () => {
+                this.showOptions();
             });
         }
     };
@@ -80,8 +85,10 @@ class Play extends React.Component {
 
     handleQuitButtonClick = () => {
         if (window.confirm('Are you sure you want to quit?')) {
-            this.props.history.push('/');
-        }
+            window.location.href = '/';
+            // this.props.history.push('/home');
+            // useNavigate('/');
+        };
     }
     
     handleButtonClick = (e) => {
@@ -134,13 +141,52 @@ class Play extends React.Component {
         });
     }
 
+    showOptions = () => {
+        const options = Array.from(document.querySelectorAll('.option'));
+
+        options.forEach(option => {
+            option.style.visibility = 'visible';
+        });
+    }
+
+    handleHints = () => {
+        if (this.state.hints > 0) {
+            const options = Array.from(document.querySelectorAll('.option'));
+            let indexOfAnswer;
+
+            options.forEach((option, index) => {
+                if (option.innerHTML.toLowerCase() === this.state.answer.toLowerCase()) {
+                    indexOfAnswer = index;
+                }
+            });
+
+            while (true) {
+                const randomNumber = Math.round(Math.random() * 3);
+                if (randomNumber !== indexOfAnswer && !this.state.previousRandomNumbers.includes(randomNumber)) {
+                    options.forEach((option, index) => {
+                        if (index === randomNumber) {
+                            option.style.visibility = 'hidden';
+                            this.setState((prevState) => ({
+                                hints: prevState.hints - 1,
+                                previousRandomNumbers: prevState.previousRandomNumbers.concat(randomNumber)
+                            }));
+                        }
+                    });
+                    break;
+                }
+                if (this.state.previousRandomNumbers.length >= 3) break;
+            }
+        }
+    }
+
     increaseCount = () => {
         this.setState({
             counter: 5
         });
     };
+    
     render () {
-        const { currentQuestion, currentQuestionIndex, numberOfQuestions} = this.state;
+        const { currentQuestion, currentQuestionIndex, numberOfQuestions, hints} = this.state;
         return (
             <>
                 <Helmet>
@@ -149,8 +195,14 @@ class Play extends React.Component {
                 <div className="questions">
                     <h2>Quiz Mode</h2>
                     <div className="lifeline-container">
-                        <p><span className="mdi mdi-set-center mdi-24px lifeline-icon"></span><span className="lifeline">2</span></p>
-                        <p><span className="mdi mdi-lightbulb-on-outline mdi-24px lifeline-icon"></span><span className="lifeline">5</span></p>
+                        <p>
+                            <span className="mdi mdi-set-center mdi-24px lifeline-icon"></span>
+                            <span className="lifeline">2</span>
+                        </p>
+                        <p>
+                            <span onClick={this.handleHints} className="mdi mdi-lightbulb-on-outline mdi-24px lifeline-icon"></span>
+                            <span className="lifeline">{hints}</span>
+                        </p>
                     </div>
                     <div>
                         <p>
