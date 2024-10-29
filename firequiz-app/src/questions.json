@@ -132,5 +132,248 @@
         "optionC": "In the beginning",
         "optionD": "At that time",
         "answer": "In the beginning"
+    },
+
+    {
+        "question": "These are example of mineral as nutrient except?",
+        "optionA": "Sodium",
+        "optionB": "Potassium",
+        "optionC": "Fat",
+        "optionD": "Chloride",
+        "answer": "Fat"
+    },
+
+    {
+        "question": "_______ is cause due to deficiency of vitamin C",
+        "optionA": "Beriberi",
+        "optionB": "Scurvy",
+        "optionC": "Night blindness",
+        "optionD": "Kwashiorkor",
+        "answer": "Scurvy"
+    },
+    {
+        "question": "_______ are drugs that excite the nervous system",
+        "optionA": "Exciting drug",
+        "optionB": "Stimulants",
+        "optionC": "Sedatives",
+        "optionD": "Therapeutics",
+        "answer": "Stimulants"
+    },
+    {
+        "question": "_______is termed the use of drug over and over again and unable to do without it.",
+        "optionA": "Drug misuse",
+        "optionB": "Drug abuse",
+        "optionC": "Drug addiction",
+        "optionD": "Drug hero",
+        "answer": "Drug addiction"
+    },
+    {
+        "question": "Pathogens are disease causing microorganisms.",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "I don’t know",
+        "optionD": "Maybe",
+        "answer": "True"
+    },
+    {
+        "question": "One of these can be caused by drug abuse.",
+        "optionA": "Reading",
+        "optionB": "Brain damage",
+        "optionC": "Healthiness",
+        "optionD": "Humility",
+        "answer": "Brain damage"
+    },
+    {
+        "question": "All are types of pollution except",
+        "optionA": "Air pollution",
+        "optionB": "Soil pollution",
+        "optionC": "Waste pollution",
+        "optionD": "Water pollution",
+        "answer": "Waste pollution"
+    },
+    {
+        "question": "Deficiency of protein causes",
+        "optionA": "Scurvy",
+        "optionB": "Kwashiorkor",
+        "optionC": "Beriberi",
+        "optionD": "Night blindness",
+        "answer": "Kwashiokor"
+    },
+    {
+        "question": "Drug abuse is caused by the following except",
+        "optionA": "Curiosity",
+        "optionB": "Stress reduction",
+        "optionC": "Peer influence",
+        "optionD": "Discipline",
+        "answer": "Discipline"
+    },
+    {
+        "question": "Drugs are classified as the following except",
+        "optionA": "Dosage",
+        "optionB": "Therapeutic",
+        "optionC": "Opium",
+        "optionD": "Hallucinogen",
+        "answer": "Dosage"
+    },
+    {
+        "question": "Drugs used to induce sleep are called",
+        "optionA": "Sedatives",
+        "optionB": "Opium",
+        "optionC": "Hallucinogens",
+        "optionD": "Exciting drug",
+        "answer": "Sedatives"
+    },
+    {
+        "question": "Fat and oil as food nutrients are useless.",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "I don’t Know",
+        "optionD": "Very useless",
+        "answer": "False"
+    },
+    {
+        "question": "Milk contains all the food nutrients.",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "I don’t know",
+        "optionD": "Maybe",
+        "answer": "True"
+    },
+    {
+        "question": "Noise can also be referred to as air pollution.",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "I don’t know",
+        "optionD": "Maybe",
+        "answer": "True"
+    },
+    {
+        "question": "One of these is not an objective for drug administration",
+        "optionA": "To relieve pain",
+        "optionB": "To enjoy life",
+        "optionC": "To combat disease",
+        "optionD": "To save life",
+        "answer": "To enjoy life"
+    },
+    {
+        "question": "One of these is the function of minerals in the body.",
+        "optionA": "It builds our tissue",
+        "optionB": "Provides energy",
+        "optionC": "Regulates body temperature",
+        "optionD": "Makes our bones strong",
+        "answer": "Makes our bones strong"
+    },
+    {
+        "question": "Pollutants include all of the following except",
+        "optionA": "Dust in the air",
+        "optionB": "Fumes from cars",
+        "optionC": "Oxygen from trees",
+        "optionD": "CO2 in the air",
+        "answer": "Oxygen from trees"
+    },
+    {
+        "question": "Poor night vision can be due to the deficiency of vitamin _______",
+        "optionA": "A",
+        "optionB": "B",
+        "optionC": "C",
+        "optionD": "D",
+        "answer": "D"
+    },
+    {
+        "question": "Sanitation is important because it",
+        "optionA": "Contributes to the spread of illness",
+        "optionB": "Causes untidy environment",
+        "optionC": "Contributes to unhealthy living",
+        "optionD": "Promotes healthiness",
+        "answer": "Promotes healthiness"
+    },
+    {
+        "question": "These are tools for sanitation except",
+        "optionA": "Broom",
+        "optionB": "Rake",
+        "optionC": "Toothbrush",
+        "optionD": "Waste bin",
+        "answer": "Toothbrush"
+    },
+    {
+        "question": "Sources of drugs include the following except",
+        "optionA": "Plants",
+        "optionB": "Food",
+        "optionC": "Hormone",
+        "optionD": "Firewood",
+        "answer": "Firewood"
+    },
+    {
+        "question": "The steps involved in refuse disposal are the following except",
+        "optionA": "Refuse collection",
+        "optionB": "Refuse sorting",
+        "optionC": "Refuse littering",
+        "optionD": "Refuse disposal",
+        "answer": "Refuse littering"
+    },
+    {
+        "question": "One of these minerals makes our bones stronger.",
+        "optionA": "Sodium",
+        "optionB": "Chlorine",
+        "optionC": "Calcium",
+        "optionD": "Phosphorus",
+        "answer": "Calcium"
+    },
+    {
+        "question": "Roughages prevent",
+        "optionA": "Death",
+        "optionB": "Constipation",
+        "optionC": "Illness",
+        "optionD": "Injury",
+        "answer": "Constipation"
+    },
+    {
+        "question": "The effects of drug abuse are the following except",
+        "optionA": "Anger and aggression",
+        "optionB": "Loss of memory",
+        "optionC": "Smart and agile",
+        "optionD": "Criminal actions",
+        "answer": "Smart and agile"
+    },
+    {
+        "question": "The following are food nutrients except",
+        "optionA": "Carbohydrate",
+        "optionB": "Vitamins",
+        "optionC": "Minerals",
+        "optionD": "Acid",
+        "answer": "Acid"
+    },
+    {
+        "question": "The following are composition of carbohydrate except",
+        "optionA": "Nitrogen",
+        "optionB": "Oxygen",
+        "optionC": "Carbon",
+        "optionD": "Hydrogen",
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "These are solid foods except",
+        "optionA": "Yam",
+        "optionB": "Beans",
+        "optionC": "Cocoa drink",
+        "optionD": "Waterleaf",
+        "answer": "Cocoa drink"
+    },
+    {
+        "question": "Which of the following acts should not be encouraged?",
+        "optionA": "Bath regularly",
+        "optionB": "Litter the environment",
+        "optionC": "Cut fingernails",
+        "optionD": "Brush at least twice every day",
+        "answer": "Litter the environment"
+    },
+    {
+        "question": "Which one of these is the function of vitamins?",
+        "optionA": "Gives energy",
+        "optionB": "Boosts immune",
+        "optionC": "Builds body tissue",
+        "optionD": "Prevents constipation",
+        "answer": "Boosts immune"
     }
+
 ]

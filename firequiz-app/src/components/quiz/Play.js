@@ -97,7 +97,8 @@ class Play extends React.Component {
 
     handleQuitButtonClick = () => {
         if (window.confirm('Are you sure you want to quit?')) {
-            this.props.navigate('/');
+            this.endGame();
+            // this.props.navigate('/');
             // this.props.history.push('/');
             // window.location.href = '/';
             // useNavigate('/');
