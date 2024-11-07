@@ -81,7 +81,7 @@ class QuizSummary extends Component {
                                 <Link to="/">Back to Home</Link>
                             </li>
                             <li>
-                                <Link to="/play/quiz">Play Again</Link>
+                                <Link to="/play/playersetup">Play Again</Link>
                             </li>
                         </ul>
                     </section>

@@ -1,379 +1,272 @@
-[
-    {
-        "question": "What temperature does water boil at?",
-        "optionA": "50 degrees Celcius",
-        "optionB": "25 degrees Celcius",
-        "optionC": "100 degrees Celcius",
-        "optionD": "150 degrees Celcius",
-        "answer": "100 degrees Celcius"
-    },
-
-    {
-        "question": "Who wrote Julius Caesar, Macbeth and Hamlet?",
-        "optionA": "Wole Soyinka",
-        "optionB": "William Shakespeare",
-        "optionC": "NgoziChimamandaAdichie",
-        "optionD": "Dan Brown",
-        "answer": "William Shakespeare"
-    },
-
-    {
-        "question": "What did the crocodile swallow in Peter Pan?",
-        "optionA": "A Book",
-        "optionB": "A Computer",
-        "optionC": "A pair of shoes",
-        "optionD": "Alarm Clock",
-        "answer": "Alarm Clock"
-    },
-
-    {
-        "question": "Which is the only mammal that can’t jump?",
-        "optionA": "Dog",
-        "optionB": "Elephant",
-        "optionC": "Goat",
-        "optionD": "Lion",
-        "answer": "Elephant"
-    },
-
-    {
-        "question": "Who lived at 221B, Baker Street, London?",
-        "optionA": "Tony Stark",
-        "optionB": "Morgan Freeman",
-        "optionC": "Sherlock Holmes",
-        "optionD": "Samuel L. Jackson",
-        "answer": "Sherlock Holmes"
-    },
-
-    {
-        "question": "What colour is a panda?",
-        "optionA": "Green and Yellow",
-        "optionB": "Blue and Red",
-        "optionC": "Green and White",
-        "optionD": "Black and White",
-        "answer": "Black and White"
-    },
-
-    {
-        "question": "Where is the smallest bone in the human body?",
-        "optionA": "The Chest",
-        "optionB": "The Ear",
-        "optionC": "The Legs",
-        "optionD": "The Hands",
-        "answer": "The Ear"
-    },
-
-    {
-        "question": "What does the roman numeral C represent?",
-        "optionA": "100",
-        "optionB": "10",
-        "optionC": "10,000",
-        "optionD": "1,000,000",
-        "answer": "100"
-    },
-
-    {
-        "question": "What takes place in Hong Kong's Happy Valley?",
-        "optionA": "Chicken Wrestling",
-        "optionB": "Horse racing",
-        "optionC": "Street Racing",
-        "optionD": "Arm Wrestling",
-        "answer": "Horse racing"
-    },
-
-    {
-        "question": "Who painted the Mona Lisa?",
-        "optionA": "Alexander Graham Bell",
-        "optionB": "Sir Isaac Newton",
-        "optionC": "Leonardo Da Vinci",
-        "optionD": "Albert Einstein",
-        "answer": "Leonardo Da Vinci"
-    },
-
-    {
-        "question": "What’s the most important book in the Moslem religion?",
-        "optionA": "The Koran",
-        "optionB": "The Dictionary",
-        "optionC": "The Bible",
-        "optionD": "The Chemistry text Book",
-        "answer": "The Koran"
-    },
-
-    {
-        "question": "What’s the capital of Ethiopia?",
-        "optionA": "Cape Town",
-        "optionB": "San Francisco",
-        "optionC": "Abuja",
-        "optionD": "Syndey",
-        "answer": "Addis Ababa"
-    },
-
-    {
-        "question": "How many squares are there on a chess board?",
-        "optionA": "128",
-        "optionB": "64",
-        "optionC": "32",
-        "optionD": "256",
-        "answer": "64"
-    },
-
-    {
-        "question": "Who invented the electric light bulb?",
-        "optionA": "Tom Cruise",
-        "optionB": "Barack Obama",
-        "optionC": "Wole Soyinka",
-        "optionD": "Thomas Edison",
-        "answer": "Thomas Edison"
-    },
-
-    {
-        "question": "What are the first three words of the bible?",
-        "optionA": "be with everyone",
-        "optionB": "Again Jesus asked",
-        "optionC": "In the beginning",
-        "optionD": "At that time",
-        "answer": "In the beginning"
-    },
-
-    {
-        "question": "These are example of mineral as nutrient except?",
-        "optionA": "Sodium",
-        "optionB": "Potassium",
-        "optionC": "Fat",
-        "optionD": "Chloride",
-        "answer": "Fat"
-    },
-
-    {
-        "question": "_______ is cause due to deficiency of vitamin C",
-        "optionA": "Beriberi",
-        "optionB": "Scurvy",
-        "optionC": "Night blindness",
-        "optionD": "Kwashiorkor",
-        "answer": "Scurvy"
-    },
-    {
-        "question": "_______ are drugs that excite the nervous system",
-        "optionA": "Exciting drug",
-        "optionB": "Stimulants",
-        "optionC": "Sedatives",
-        "optionD": "Therapeutics",
-        "answer": "Stimulants"
-    },
-    {
-        "question": "_______is termed the use of drug over and over again and unable to do without it.",
+{
+    "jss1": [
+      {
+        "question": "_______ can cause serious health problems.",
         "optionA": "Drug misuse",
         "optionB": "Drug abuse",
         "optionC": "Drug addiction",
-        "optionD": "Drug hero",
-        "answer": "Drug addiction"
-    },
-    {
-        "question": "Pathogens are disease causing microorganisms.",
-        "optionA": "True",
-        "optionB": "False",
-        "optionC": "I don’t know",
-        "optionD": "Maybe",
-        "answer": "True"
-    },
-    {
-        "question": "One of these can be caused by drug abuse.",
-        "optionA": "Reading",
-        "optionB": "Brain damage",
-        "optionC": "Healthiness",
-        "optionD": "Humility",
-        "answer": "Brain damage"
-    },
-    {
-        "question": "All are types of pollution except",
-        "optionA": "Air pollution",
-        "optionB": "Soil pollution",
-        "optionC": "Waste pollution",
-        "optionD": "Water pollution",
-        "answer": "Waste pollution"
-    },
-    {
-        "question": "Deficiency of protein causes",
-        "optionA": "Scurvy",
-        "optionB": "Kwashiorkor",
-        "optionC": "Beriberi",
-        "optionD": "Night blindness",
-        "answer": "Kwashiokor"
-    },
-    {
-        "question": "Drug abuse is caused by the following except",
-        "optionA": "Curiosity",
-        "optionB": "Stress reduction",
-        "optionC": "Peer influence",
-        "optionD": "Discipline",
-        "answer": "Discipline"
-    },
-    {
-        "question": "Drugs are classified as the following except",
-        "optionA": "Dosage",
-        "optionB": "Therapeutic",
-        "optionC": "Opium",
-        "optionD": "Hallucinogen",
-        "answer": "Dosage"
-    },
-    {
-        "question": "Drugs used to induce sleep are called",
-        "optionA": "Sedatives",
-        "optionB": "Opium",
-        "optionC": "Hallucinogens",
-        "optionD": "Exciting drug",
-        "answer": "Sedatives"
-    },
-    {
-        "question": "Fat and oil as food nutrients are useless.",
-        "optionA": "True",
-        "optionB": "False",
-        "optionC": "I don’t Know",
-        "optionD": "Very useless",
-        "answer": "False"
-    },
-    {
-        "question": "Milk contains all the food nutrients.",
-        "optionA": "True",
-        "optionB": "False",
-        "optionC": "I don’t know",
-        "optionD": "Maybe",
-        "answer": "True"
-    },
-    {
-        "question": "Noise can also be referred to as air pollution.",
-        "optionA": "True",
-        "optionB": "False",
-        "optionC": "I don’t know",
-        "optionD": "Maybe",
-        "answer": "True"
-    },
-    {
+        "optionD": "All of the above",
+        "answer": "All of the above"
+      },
+      {
+        "question": "The best source of energy in human diet is",
+        "optionA": "fats",
+        "optionB": "carbohydrates",
+        "optionC": "vitamins",
+        "optionD": "minerals",
+        "answer": "carbohydrates"
+      },
+      {
+        "question": "Drugs are classified based on their",
+        "optionA": "color",
+        "optionB": "shapes",
+        "optionC": "effects",
+        "optionD": "smell",
+        "answer": "effects"
+      },
+      {
+        "question": "Nutritional disease can be caused by:",
+        "optionA": "malnutrition",
+        "optionB": "overeating",
+        "optionC": "poor diet",
+        "optionD": "All of the above",
+        "answer": "All of the above"
+      },
+      {
+        "question": "Drug abuse can cause:",
+        "optionA": "brain damage",
+        "optionB": "anxiety",
+        "optionC": "depression",
+        "optionD": "All of the above",
+        "answer": "All of the above"
+      },
+      {
+        "question": "Drugs used to relieve pain are called",
+        "optionA": "analgesics",
+        "optionB": "antibiotics",
+        "optionC": "sedatives",
+        "optionD": "stimulants",
+        "answer": "analgesics"
+      },
+      {
+        "question": "Which of the following is not a vitamin?",
+        "optionA": "Vitamin A",
+        "optionB": "Vitamin C",
+        "optionC": "Vitamin K",
+        "optionD": "Fat",
+        "answer": "Fat"
+      },
+      {
+        "question": "The primary role of carbohydrates is to provide",
+        "optionA": "energy",
+        "optionB": "protein",
+        "optionC": "vitamins",
+        "optionD": "minerals",
+        "answer": "energy"
+      },
+      {
+        "question": "Which of the following diseases can be caused by drug abuse?",
+        "optionA": "heart disease",
+        "optionB": "liver disease",
+        "optionC": "lung disease",
+        "optionD": "All of the above",
+        "answer": "All of the above"
+      },
+      {
+        "question": "Drugs can be classified based on the following except:",
+        "optionA": "dosage",
+        "optionB": "therapeutic",
+        "optionC": "habit forming",
+        "optionD": "hallucinogens",
+        "answer": "dosage"
+      },
+      {
+        "question": "Fruits and vegetables are good sources of",
+        "optionA": "carbohydrates",
+        "optionB": "proteins",
+        "optionC": "fats",
+        "optionD": "vitamins",
+        "answer": "vitamins"
+      },
+      {
+        "question": "Which vitamin is important for vision?",
+        "optionA": "Vitamin A",
+        "optionB": "Vitamin C",
+        "optionC": "Vitamin D",
+        "optionD": "Vitamin K",
+        "answer": "Vitamin A"
+      },
+      {
+        "question": "These are solid food except",
+        "optionA": "yam",
+        "optionB": "beans",
+        "optionC": "cocoa drink",
+        "optionD": "waterleaf",
+        "answer": "cocoa drink"
+      },
+      {
+        "question": "The function of protein in the body is to:",
+        "optionA": "build and repair tissues",
+        "optionB": "provide energy",
+        "optionC": "regulate body processes",
+        "optionD": "store nutrients",
+        "answer": "build and repair tissues"
+      },
+      {
+        "question": "Which of the following is not a nutrient?",
+        "optionA": "carbohydrates",
+        "optionB": "water",
+        "optionC": "oxygen",
+        "optionD": "vitamins",
+        "answer": "oxygen"
+      },
+      {
+        "question": "Which nutrient is essential for growth and development?",
+        "optionA": "proteins",
+        "optionB": "carbohydrates",
+        "optionC": "fats",
+        "optionD": "vitamins",
+        "answer": "proteins"
+      }
+    ],
+    
+    "jss2": [
+      {
+        "question": "The following are sources of vitamins except:",
+        "optionA": "fruits",
+        "optionB": "vegetables",
+        "optionC": "drugs",
+        "optionD": "meat",
+        "answer": "drugs"
+      },
+      {
+        "question": "Drugs can be classified into which of the following:",
+        "optionA": "recreational",
+        "optionB": "therapeutic",
+        "optionC": "both a and b",
+        "optionD": "none of the above",
+        "answer": "both a and b"
+      },
+      {
+        "question": "Which of the following can lead to drug dependence?",
+        "optionA": "occasional use",
+        "optionB": "frequent use",
+        "optionC": "abstinence",
+        "optionD": "none of the above",
+        "answer": "frequent use"
+      },
+      {
+        "question": "The following are types of drugs except:",
+        "optionA": "stimulants",
+        "optionB": "depressants",
+        "optionC": "hallucinogens",
+        "optionD": "tonics",
+        "answer": "tonics"
+      },
+      {
         "question": "One of these is not an objective for drug administration",
-        "optionA": "To relieve pain",
-        "optionB": "To enjoy life",
-        "optionC": "To combat disease",
-        "optionD": "To save life",
-        "answer": "To enjoy life"
-    },
-    {
-        "question": "One of these is the function of minerals in the body.",
-        "optionA": "It builds our tissue",
-        "optionB": "Provides energy",
-        "optionC": "Regulates body temperature",
-        "optionD": "Makes our bones strong",
-        "answer": "Makes our bones strong"
-    },
-    {
-        "question": "Pollutants include all of the following except",
-        "optionA": "Dust in the air",
-        "optionB": "Fumes from cars",
-        "optionC": "Oxygen from trees",
-        "optionD": "CO2 in the air",
-        "answer": "Oxygen from trees"
-    },
-    {
-        "question": "Poor night vision can be due to the deficiency of vitamin _______",
-        "optionA": "A",
-        "optionB": "B",
-        "optionC": "C",
-        "optionD": "D",
-        "answer": "D"
-    },
-    {
-        "question": "Sanitation is important because it",
-        "optionA": "Contributes to the spread of illness",
-        "optionB": "Causes untidy environment",
-        "optionC": "Contributes to unhealthy living",
-        "optionD": "Promotes healthiness",
-        "answer": "Promotes healthiness"
-    },
-    {
-        "question": "These are tools for sanitation except",
-        "optionA": "Broom",
-        "optionB": "Rake",
-        "optionC": "Toothbrush",
-        "optionD": "Waste bin",
-        "answer": "Toothbrush"
-    },
-    {
-        "question": "Sources of drugs include the following except",
-        "optionA": "Plants",
-        "optionB": "Food",
-        "optionC": "Hormone",
-        "optionD": "Firewood",
-        "answer": "Firewood"
-    },
-    {
-        "question": "The steps involved in refuse disposal are the following except",
-        "optionA": "Refuse collection",
-        "optionB": "Refuse sorting",
-        "optionC": "Refuse littering",
-        "optionD": "Refuse disposal",
-        "answer": "Refuse littering"
-    },
-    {
-        "question": "One of these minerals makes our bones stronger.",
-        "optionA": "Sodium",
-        "optionB": "Chlorine",
-        "optionC": "Calcium",
-        "optionD": "Phosphorus",
-        "answer": "Calcium"
-    },
-    {
-        "question": "Roughages prevent",
-        "optionA": "Death",
-        "optionB": "Constipation",
-        "optionC": "Illness",
-        "optionD": "Injury",
-        "answer": "Constipation"
-    },
-    {
-        "question": "The effects of drug abuse are the following except",
-        "optionA": "Anger and aggression",
-        "optionB": "Loss of memory",
-        "optionC": "Smart and agile",
-        "optionD": "Criminal actions",
-        "answer": "Smart and agile"
-    },
-    {
-        "question": "The following are food nutrients except",
-        "optionA": "Carbohydrate",
-        "optionB": "Vitamins",
-        "optionC": "Minerals",
-        "optionD": "Acid",
-        "answer": "Acid"
-    },
-    {
-        "question": "The following are composition of carbohydrate except",
-        "optionA": "Nitrogen",
-        "optionB": "Oxygen",
-        "optionC": "Carbon",
-        "optionD": "Hydrogen",
-        "answer": "Nitrogen"
-    },
-    {
-        "question": "These are solid foods except",
-        "optionA": "Yam",
-        "optionB": "Beans",
-        "optionC": "Cocoa drink",
-        "optionD": "Waterleaf",
-        "answer": "Cocoa drink"
-    },
-    {
-        "question": "Which of the following acts should not be encouraged?",
-        "optionA": "Bath regularly",
-        "optionB": "Litter the environment",
-        "optionC": "Cut fingernails",
-        "optionD": "Brush at least twice every day",
-        "answer": "Litter the environment"
-    },
-    {
-        "question": "Which one of these is the function of vitamins?",
-        "optionA": "Gives energy",
-        "optionB": "Boosts immune",
-        "optionC": "Builds body tissue",
-        "optionD": "Prevents constipation",
-        "answer": "Boosts immune"
-    }
-
-]
+        "optionA": "to relieve pain",
+        "optionB": "to enjoy life",
+        "optionC": "to compact disease",
+        "optionD": "to save life",
+        "answer": "to enjoy life"
+      },
+      {
+        "question": "Which nutrient is known as the body's main source of energy?",
+        "optionA": "protein",
+        "optionB": "fats",
+        "optionC": "carbohydrates",
+        "optionD": "vitamins",
+        "answer": "carbohydrates"
+      },
+      {
+        "question": "Protein can be found in which of the following?",
+        "optionA": "meat",
+        "optionB": "vegetables",
+        "optionC": "fruits",
+        "optionD": "grains",
+        "answer": "meat"
+      },
+      {
+        "question": "Minerals are important for:",
+        "optionA": "building muscles",
+        "optionB": "maintaining fluid balance",
+        "optionC": "both a and b",
+        "optionD": "none of the above",
+        "answer": "both a and b"
+      },
+      {
+        "question": "The following are the effects of drug abuse except:",
+        "optionA": "brain damage",
+        "optionB": "improved health",
+        "optionC": "depression",
+        "optionD": "anxiety",
+        "answer": "improved health"
+      },
+      {
+        "question": "The primary role of fats in the diet is to:",
+        "optionA": "provide energy",
+        "optionB": "build tissue",
+        "optionC": "regulate body temperature",
+        "optionD": "help with digestion",
+        "answer": "provide energy"
+      },
+      {
+        "question": "Which vitamin is essential for blood clotting?",
+        "optionA": "Vitamin A",
+        "optionB": "Vitamin B",
+        "optionC": "Vitamin C",
+        "optionD": "Vitamin K",
+        "answer": "Vitamin K"
+      },
+      {
+        "question": "The following nutrients provide energy except:",
+        "optionA": "carbohydrates",
+        "optionB": "fats",
+        "optionC": "proteins",
+        "optionD": "vitamins",
+        "answer": "vitamins"
+      },
+      {
+        "question": "Which of the following is not a mineral?",
+        "optionA": "calcium",
+        "optionB": "iron",
+        "optionC": "zinc",
+        "optionD": "protein",
+        "answer": "protein"
+      },
+      {
+        "question": "The best sources of dietary fiber are:",
+        "optionA": "fruits and vegetables",
+        "optionB": "meat and dairy",
+        "optionC": "grains and fats",
+        "optionD": "none of the above",
+        "answer": "fruits and vegetables"
+      },
+      {
+        "question": "Vitamins are classified into two categories:",
+        "optionA": "fat-soluble and water-soluble",
+        "optionB": "natural and synthetic",
+        "optionC": "essential and non-essential",
+        "optionD": "none of the above",
+        "answer": "fat-soluble and water-soluble"
+      },
+      {
+        "question": "Deficiency of which vitamin leads to scurvy?",
+        "optionA": "Vitamin A",
+        "optionB": "Vitamin B",
+        "optionC": "Vitamin C",
+        "optionD": "Vitamin D",
+        "answer": "Vitamin C"
+      },
+      {
+        "question": "Which of the following is not a source of dietary protein?",
+        "optionA": "fish",
+        "optionB": "potatoes",
+        "optionC": "chicken",
+        "optionD": "beans",
+        "answer": "potatoes"
+      }
+    ]
+  }
+  

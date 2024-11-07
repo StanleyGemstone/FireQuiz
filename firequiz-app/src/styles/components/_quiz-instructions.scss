@@ -4,6 +4,16 @@
     margin-top: $lg;
     margin-bottom: $lg;
     padding: $sm $lg;
+
+    .welcome {
+        color: #fff;
+        font-size: $md;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        background-color: #000;
+    }
+
     h1 {
         color: black;
         font-size: $md;

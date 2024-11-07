@@ -2,7 +2,6 @@ import React, { /*Component,*/ Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import M from 'materialize-css';
 import classnames from 'classnames';
-// import { useNavigate } from 'react-router-dom';
 import withRouterUtils from './withRouterUtils';
 
 import questions from '../../questions.json';
@@ -35,11 +34,23 @@ class Play extends React.Component {
     }
 
   
-    componentDidMount () {
-        const { questions, currentQuestion, nextQuestion, previousQuestion } = this.state;
-        this.displayQuestions(questions, currentQuestion, nextQuestion, previousQuestion);
-        this.startTimer();
+componentDidMount() {
+    const { selectedClass, playerName } = this.props.location.state;
+
+    if (selectedClass) {
+        const classQuestions = questions[selectedClass];
+        if (classQuestions) {
+            this.setState({ questions: classQuestions, playerName}, () => {
+                this.displayQuestions();
+                this.startTimer();
+            });
+        } else {
+            console.error(`No questions found for class ${selectedClass}`);
+        }
+    } else {
+        console.error("selectedClass is missing");
     }
+}
 
     componentWillUnmount () {
         clearInterval(this.interval);
@@ -333,7 +344,9 @@ class Play extends React.Component {
             fiftyFifty,
             numberOfQuestions,
             hints,
-            time
+            time,
+            // playerName,
+            // selectedClass,
         } = this.state;
         return (
             <Fragment>
@@ -391,4 +404,4 @@ class Play extends React.Component {
     }
 };
 
-export default withRouterUtils(Play);
+export default withRouterUtils(Play); 
