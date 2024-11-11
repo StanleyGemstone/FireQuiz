@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/FireQuiz/static/css/main.d1cf548d.css",
+    "main.js": "/FireQuiz/static/js/main.534f666c.js",
+    "static/media/materialdesignicons-webfont.eot": "/FireQuiz/static/media/materialdesignicons-webfont.2146c3c82b553977abc7.eot",
+    "static/media/materialdesignicons-webfont.ttf?v=7.4.47": "/FireQuiz/static/media/materialdesignicons-webfont.1fcc36272ea3e53d0031.ttf",
+    "static/media/materialdesignicons-webfont.woff?v=7.4.47": "/FireQuiz/static/media/materialdesignicons-webfont.e55a20c80650829ec5fd.woff",
+    "static/media/materialdesignicons-webfont.woff2?v=7.4.47": "/FireQuiz/static/media/materialdesignicons-webfont.ec024da790d2972da002.woff2",
+    "static/media/background.jpg": "/FireQuiz/static/media/background.f17e5a3a16e91aa18ea5.jpg",
+    "index.html": "/FireQuiz/index.html",
+    "main.d1cf548d.css.map": "/FireQuiz/static/css/main.d1cf548d.css.map",
+    "main.534f666c.js.map": "/FireQuiz/static/js/main.534f666c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1cf548d.css",
+    "static/js/main.534f666c.js"
+  ]
+}
